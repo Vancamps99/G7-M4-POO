@@ -1,4 +1,8 @@
 class Medicamento():
-    #Atributos de la clase Medicamentos
+    # Atributos de la clase Medicamentos
     descuento = 0.05
-    IVA=0.18
+    IVA = 0.18
+
+    @staticmethod
+    def validar_mayor_a_cero(numero: int):
+        return numero > 0

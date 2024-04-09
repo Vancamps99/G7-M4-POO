@@ -17,3 +17,8 @@ pelota_tenis.material="Caucho"
 print(pelota_tenis.material)
 
 print(pelota_de_andy.material)
+
+#Metodo estatico 
+#no se necesita crear un objeto para invocar a un metodo
+print (Pelota.crear_rebote)#<function Pelota.crear_rebote at 0x00000295EB086D40>
+print (Pelota.crear_rebote())#[5, 0, 4, 0, 3, 0, 2, 0, 1, 0]

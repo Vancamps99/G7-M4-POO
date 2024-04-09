@@ -1,3 +1,18 @@
 intro
 cual es la diferencia entre clase ,atributo e instancia
-clase=
+//clase=es una plantilla para crear objetos. Define las propiedades y comportamientos comunes que los objetos de esa clase compartirán.
+UN OBJETO ES UNA INSTANCIA DE UNA CLASE//
+//Un atributo// es una variable que pertenece a un objeto. Representa alguna característica del objeto. 
+Los atributos se definen dentro de la clase y se acceden a través de cada instancia de la clase.//
+//Una instancia// en Python es un objeto creado a partir de una clase. Cada instancia tiene su propio conjunto de atributos y métodos,
+ pero comparte la estructura definida por la clase//
+
+VARIABLE O ATRIBUTO DE INSTANCIA= //Una variable o atributo de instancia en Python es una variable asociada a una instancia específica de una clase.
+ Cada instancia de la clase puede tener sus propios valores para estos atributos, independientes de otras instancias de la misma clase.//
+#metodo estatico Métodos estáticos: Estos métodos están definidos dentro de una clase, pero no reciben automáticamente una referencia a ninguna instancia (self).
+Por lo tanto, no pueden acceder ni modificar los atributos de la instancia y generalmente se utilizan para tareas que no requieren el acceso a datos de instancia específicos.
+#Un método no estático# //es un tipo de función definida dentro de una clase que opera en instancias particulares de esa clase.
+ Estos métodos usan el argumento self como su primer parámetro, el cual hace referencia a la instancia en la que se llama el método.
+  Esto les permite acceder y manipular los atributos de la instancia.//
+#metodo y funcion diferencia el metodo esta dentro de una clase (existen dos metodos estaticos y no estaticos y se diferencian
+ que el estatico no altera )
