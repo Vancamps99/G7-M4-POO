@@ -20,3 +20,4 @@ if pizza.es_pizza_valida:
     print(f"Tipo de masa: {pizza.masa}")
 else:
     print("La pizza no es válida")
+#Discuipe por lo atrasdo de los desafios 
